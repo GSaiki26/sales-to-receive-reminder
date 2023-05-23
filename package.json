@@ -6,7 +6,6 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc >> /dev/null",
-    "start:dev": "ts-node src/index.ts",
     "start:prod": "yarn run build; node ."
   },
   "dependencies": {
